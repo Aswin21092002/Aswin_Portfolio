@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/passport size photo.jpg" alt="Aswin N" width="100">
+        </figure>
+        
+
+        <div class="info-content">
+          <h1 class="name" title="Aswin N">Aswin N</h1>
+
+          <p class="title">Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:aswin21092002@gmail.com" class="contact-link">aswin21092002@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916381517031" class="contact-link">+91 6381517031</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-09-21">September 21, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/aswin-n-6a800b281" class="social-link" target="_blank" aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Aswin21092002/" class="social-link" target="_blank" aria-label="GitHub">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        
+          
+        
+          <li class="social-item">
+            <a href="https://www.instagram.com/i_am_not_alive_3?igsh=a2M2dmgzcnh6eGh5" class="social-link" target="_blank" aria-label="Instagram">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+          
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Software Developer with a deep focus on Python and Django, based in Chennai, India. With a background in Electronics and Communication Engineering, I bring a strong technical foundation to my work in software development and machine learning. I am passionate about transforming complex ideas into effective, efficient solutions, emphasizing both functionality and innovation.
+          </p>
+
+          <p>
+            In my projects, I prioritize creating robust, user-friendly applications that not only meet the technical requirements but also enhance the user experience. My goal is to combine functionality with creativity, crafting solutions that are not only technically sound but also engaging and intuitive. I've had the privilege of working on a diverse array of projects, from developing backend services to implementing data-driven machine learning models.
+          </p>
+
+          <p>
+            My mission is to contribute to your team’s success by delivering high-quality, optimized, and impactful solutions that bring your vision to life.
+          </p>
+
+          <a href="mailto:aswin21092002@gmail.com" class="hire-me-btn">Hire Me</a>
+
+          
+</section>
+
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm Doing</h3>
+        
+          <ul class="service-list">
+
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-software-development-50.png" alt="Website development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Dynamic Website Development</h4>
+                <p class="service-item-text">
+                  Specializing in custom dynamic website development using HTML, CSS, and JavaScript, with expertise in creating responsive, SEO-optimized, and user-friendly websites. 
+                  I integrate front-end and back-end technologies, including API and database solutions, to deliver interactive, real-time experiences that meet business needs and enhance user engagement.
+                </p>
+              </div>
+            </li> 
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-embedded-system-64.png" alt="Data analytics icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Embedded System Development</h4>
+                <p class="service-item-text">
+                  Experienced in embedded system design and development, proficient in C, C++, and Python to create efficient hardware and software solutions. 
+                  Skilled in integrating hardware components with software for optimized performance and real-time capabilities in embedded applications.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-software-development-64.png" alt="Backend development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">GUI Application Development</h4>
+                <p class="service-item-text">
+                  Specialized in GUI application development using Qt with Python and C++, integrating OpenCV for advanced image processing. 
+                  Skilled in designing intuitive, user-friendly interfaces while optimizing performance for real-time applications.
+                </p>
+                </div>
+            </li>
+        
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-software-development-50 (1).png" alt="Web application development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Application Development</h4>
+                <p class="service-item-text">
+                  Experienced in web application development using Python and Django, with a strong focus on building robust back-end services and databases with MySQL. 
+                  Proficient in deploying applications on Heroku for seamless cloud hosting and scalability.
+                </p>
+              </div>
+            </li>
+            
+        </ul>
+        
+        </section>
+        
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Courses</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/images.png" alt="guvi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python Programming – GUVI</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                 
+                  
+      <p>
+        Mastered OOP concepts in Python, including classes, inheritance, polymorphism, and encapsulation, to design clean, modular code. 
+        Gained proficiency in Python syntax, data structures (arrays, stacks, queues, linked lists), and algorithm optimization. 
+        Worked on a project to manage real-time data, enhancing problem-solving skills in real-world applications.
+      </p>
+                
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/udemy-logo.png" alt="udemy" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Web Development with Django – Udemy</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Learned to build full-stack web applications using Django for backend, MySQL for database management, and REST APIs for data exchange. 
+                    Gained expertise in frontend technologies (HTML, CSS, JavaScript) to create responsive UIs.
+                    Developed skills in CRUD operations, database schema management, and implementing authentication and authorization systems for scalable web apps.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/Tjsdrxg3_400x400.jpg" alt="great learning" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>C++ Development with Qt – Great Learning</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gained expertise in C++ programming and GUI development with the Qt framework. 
+                    Learned to design, build, and deploy cross-platform applications with dynamic user interfaces, focusing on memory management, signals and slots, and real-time application performance. 
+                    Strengthened problem-solving skills for creating scalable, high-performance applications.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/simplilearn.webp" alt="simplilearn" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Python Libraries for Data Science – Simplilearn</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mastered key Python libraries (Pandas, NumPy, Matplotlib, Seaborn) for data manipulation, visualization, and statistical analysis. 
+                    Gained experience in data cleaning, working with large datasets, and implementing machine learning algorithms for predictive modeling, enhancing my ability to make data-driven decisions.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+      
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-2002.jpeg" alt="courses" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/learning.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              
+
+              <div data-modal-text>
+                <p>
+                  As a recent graduate, I am committed to continuously developing my skills and knowledge in software development, with a focus on backend programming and database management. I aim to master Python and expand my expertise in cutting-edge technologies.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Achievements & Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1f7Jk74F_kYCrivrgsRUJeK4Z7sE9iqtD/view?usp=sharing" target="_blank">
+                <img src="./assets/images/python.jpg" alt="client logo">
+              </a>
+            </li>
+            
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1OKjMYLxHCURSmkhgDvSKZgyfSQl_oMLY/view?usp=sharing" target="_blank">
+                <img src="./assets/images/Certificates_page-0008.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/10LH_rmYzBq13pgklad3vLdoRx7tIJgfj/view?usp=sharing" target="_blank">
+                <img src="./assets/images/certificate.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1gX9iDq509iJb5kAsgmXTNA9Ri1vVsLkE/view?usp=sharing" target="_blank">
+                <img src="./assets/images/Certificates_page-0014.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/12jhLN-ezrX_j17TINg9W1sG21oNc-MNp/view?usp=sharing" target="_blank">
+                <img src="./assets/images/sql.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://drive.google.com/file/d/1ftDFYGc_Ao88R6ug5XeFPQ-w33bFG7JD/view?usp=sharing" target="_blank">
+                <img src="./assets/images/Certificates_page-0015.jpg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+
+                <img src="./assets/images/icons8-experience-100.png" alt="experience" width="40">
+              </div>
+              
+            <h3 class="h3">Experience</h3>
+          </div>
+        
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Embedded Software Engineer</h4>
+              <span>Fracktal Works Private Limited | September 2024 – Present | Bengaluru, India</span>
+              <p class="timeline-text">
+                • Developing and enhancing Graphical User Interfaces (GUIs) using PyQt5 for intuitive interaction with 3D printing systems.<br>
+                • Working on 3D printing slicing software, contributing to the design, optimization, and troubleshooting of advanced 3D printing operations.<br>
+                • Designing and implementing backend functionalities for applications using Django and Jinja2 templates, focusing on performance optimization and scalability.<br>
+                • Collaborating with cross-functional teams to integrate 3D printing software features, ensuring seamless functionality from front-end to back-end.<br>
+                • Ensuring code quality, scalability, and security in backend development by writing clean, maintainable, and efficient Python code.<br>
+                • Actively participating in the development cycle, including debugging, testing, and deploying new features for embedded and 3D printing systems.<br>
+                • Utilizing Python for both software development and integration of embedded systems with the company’s 3D printing technologies.<br>
+                • Contributing to the continuous improvement of internal processes by developing automation tools and improving software performance.<br>
+                • Working closely with the R&D department as an Embedded Engineer, using Python and C++ to enhance embedded systems.<br>
+                • Responsible for optimizing and updating the company's websites and software to improve performance and functionality.<br>
+                • Created and integrated AI into the company's website to provide quick, automated responses to clients, improving user experience and customer service.
+              </p>
+            
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Full Stack Developer Intern</h4>
+              <span>Shiash Info Solutions Private Limited | July 2024 – September 2024 | Chennai, India</span>
+              <p class="timeline-text">
+                • Contributed to software application development and maintenance using Python.<br>
+                • Supported all phases of the software development lifecycle, including planning, design, implementation, and deployment.<br>
+                • Enhanced programming skills through active learning and practical experience in Python development.<br>
+                • Participated in unit-testing and debugging to ensure application robustness.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Developer Intern</h4>
+              <span>Cyber Heals Infotech Private Limited | February 2024 – June 2024 | Chennai, India</span>
+              <p class="timeline-text">
+                • Contributed to software application development and maintenance using Python.<br>
+                • Supported all phases of the software development lifecycle, including planning, design, implementation, and deployment.<br>
+                • Enhanced programming skills through active learning and practical experience in Python development.<br>
+                • Participated in unit-testing and debugging to ensure application robustness.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Python Developer & Data Science Intern</h4>
+              <span>Techno Hack Edutech Pvt Limited | December 2023 – January 2024 | Remote</span>
+              <p class="timeline-text">
+                • Implemented Python code for applications, contributing to the full project lifecycle from planning to deployment.<br>
+                • Developed a uniform detection system for employees in Python, managing data preprocessing, feature engineering, and model evaluation.<br>
+                • Demonstrated strong technical abilities, effective time management, and adaptability to diverse project requirements.<br>
+                • Adopted industry best practices for code quality and documentation.
+              </p>
+            </li>
+        
+          </ol>
+        </section>
+        
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+
+              <img src="./assets/images/icons8-education-100.png" alt="experience" width="40">
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+        
+          <ol class="timeline-list">
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering (B.E.) in Electronics and Communication Engineering</h4>
+              <span>Stella Mary's College of Engineering | 2020 – 2024 | Nagercoil, India</span>
+              <p class="timeline-text">
+                CGPA: 8.32<br>
+                Participated in numerous symposiums and conducted advanced research in AI and new robotics. Gained significant knowledge and hands-on experience in cutting-edge technologies.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Higher Secondary Certificate (HSC) in Maths & Biology</h4>
+              <span>Devi Higher Secondary School | 2019 – 2020 | Nagercoil, India</span>
+              <p class="timeline-text">
+                Percentage: 80%<br>
+                Actively participated in various science exhibitions and cultural events, showcasing a keen interest in scientific exploration and innovation.
+              </p>
+            </li>
+        
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Secondary School Leaving Certificate (SSLC)</h4>
+              <span>St. Francis Xavier's High School | 2017 – 2018 | Nagercoil, India</span>
+              <p class="timeline-text">
+                Percentage: 94%<br>
+                Achieved recognition as an Inspire Award winner and Young Scientist. Demonstrated excellence in academics, particularly in science and mathematics.
+              </p>
+            </li>
+        
+          </ol>
+        </section>
+
+        <a href="./assets/Resume/Aswin-N-Resume.pdf" class="download-btn" download>Download Resume</a>
+
+
+        
+        
+
+      </article>
+
+
+     
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Application</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>GUI Application</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Dynamic Website</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Embedded System</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Application</button>
+              </li>
+              
+              <li class="filter-item">
+                <button data-filter-btn>GUI Application</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Dynamic Website</button>
+              </li>
+              
+              <li class="filter-item">
+                <button data-filter-btn>Embedded System</button>
+              </li>
+
+            </ul>
+
+          </div>
+          
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="dynamic website">
+              <a href="https://github.com/Aswin21092002/Blockchain-Technology-For-Electronic-Health-Records" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Electronic Health Records</h3>
+
+                <p class="project-category">Dynamic Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gui application">
+              <a href="https://github.com/Aswin21092002/Face_Detection-" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/1648910659306.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Face Detection System</h3>
+
+                <p class="project-category">GUI Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="dynamic website">
+              <a href="https://aswin21092002.github.io/sri_krishna_sweets_feedback/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/file (1).jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Feedback Form with Voice Recording</h3>
+
+                <p class="project-category">Dynamic Website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gui application">
+              <a href="https://github.com/Aswin21092002/Find_ME_App" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/FRXFVNZIEO2XIOO.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Find Me Application</h3>
+
+                <p class="project-category">GUI Application</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="embedded system">
+              <a href="https://github.com/Aswin21092002/Guidotronic-Bot" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Picture1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Guidotronic Bot</h3>
+
+                <p class="project-category">Embedded System</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/Aswin21092002/Job-Board" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/original-6bc1fab2144398817c0daba02c1c0524.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Job Search Platform</h3>
+
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            
+
+            
+
+            
+
+           
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/Aswin21092002/myproject/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/download.jpeg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portfolio with Secure Login System</h3>
+
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/Aswin21092002/Task-Manager" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/screenshot4.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category"> Web Application</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="gui application">
+              <a href="https://github.com/Aswin21092002/Face_Detection-" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/uniform_detect.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Uniform Detection System</h3>
+
+                <p class="project-category">GUI Application</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="skills" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">My Skills</h2>
+        </header>
+
+        <!-- <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+        <section class="skill">
+          
+        
+          <!-- Professional Skills Section -->
+          <div class="skills-category">
+            <h4 class="h4">industry Skills</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/software.jpg" alt="Software Development Icon" class="skill-icon">
+                  <h5 class="h5">Software Development</h5>
+                </div>
+                <p class="skill-description">Programming, System Design, Implementation</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/technology-web-application.jpg" alt="Web Development Icon" class="skill-icon">
+                  <h5 class="h5">Web Application Development</h5>
+                </div>
+                <p class="skill-description">Front-End & Back-End Development, Responsive Design</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/best-python-frameworks-for-web-development.jpg" alt="Django Icon" class="skill-icon">
+                  <h5 class="h5">Python Django Developer</h5>
+                </div>
+                <p class="skill-description">Python Programming, Django Framework, API Development</p>
+              </li>
+            </ul>
+          </div>
+        
+          <!-- Technical Skills Section -->
+          <div class="skills-category">
+            <h4 class="h4">Technical Skills</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/proh.webp" alt="Python Icon" class="skill-icon">
+                  <h5 class="h5">Programming Languages</h5>
+                </div>
+                <p class="skill-description">Python, C, C++, SQL</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/Python-Libraries-Studyopedia.png" alt="Libraries Icon" class="skill-icon">
+                  <h5 class="h5">Frameworks & Libraries</h5>
+                </div>
+                <p class="skill-description">Django, Flask, Qt, STL, NumPy, Pandas, Matplotlib, Seaborn, Requests, BeautifulSoup, Tkinter</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/0_7zMicw-FfThCbN35.png" alt="OOP Icon" class="skill-icon">
+                  <h5 class="h5">OOP Concepts</h5>
+                </div>
+                <p class="skill-description">Encapsulation, Inheritance, Polymorphism, Abstraction</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/dsa-letter-logo-design-on-black-backgrounddsa-vector-41791928.jpg" alt="DSA Icon" class="skill-icon">
+                  <h5 class="h5">Data Structures & Algorithms</h5>
+                </div>
+                <p class="skill-description">Array Sorting, Searching, Two Pointers, Sliding Window</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/0_UumT67KoYhKn9cGa.jpg" alt="Frontend Icon" class="skill-icon">
+                  <h5 class="h5">Front-End Technologies</h5>
+                </div>
+                <p class="skill-description">HTML, CSS, JavaScript</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/DBMS_169750527_400.jpg" alt="Database Icon" class="skill-icon">
+                  <h5 class="h5">Databases</h5>
+                </div>
+                <p class="skill-description">MySQL</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/1_G6OVBjY6NHm9F7QhK0hz5Q.png" alt="Cloud Icon" class="skill-icon">
+                  <h5 class="h5">Cloud Platforms</h5>
+                </div>
+                <p class="skill-description">Heroku, Vercel, Getify, Kubernetes</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/download.png" alt="CI/CD Icon" class="skill-icon">
+                  <h5 class="h5">CI/CD Tools</h5>
+                </div>
+                <p class="skill-description">Docker, GitLab CI/CD</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/1_E1jdYRKin1hraL67-cKALw.png" alt="Version Control Icon" class="skill-icon">
+                  <h5 class="h5">Version Control</h5>
+                </div>
+                <p class="skill-description">Git, GitHub</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/examples_of_most_commonly_used_ides_3033d34683.jpg" alt="Tools Icon" class="skill-icon">
+                  <h5 class="h5">Development Tools</h5>
+                </div>
+                <p class="skill-description">PyCharm, VS Code, PyQt5 Designer, Cura, Fusion 360, Visual Studio, Embedded IDEs, Code Blocks</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/software-engineering-software-development-life-cycle.png" alt="SDLC Icon" class="skill-icon">
+                  <h5 class="h5">Software Development Life Cycle (SDLC)</h5>
+                </div>
+                <p class="skill-description">Agile</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/Operating-system.jpg" alt="Operating Systems Icon" class="skill-icon">
+                  <h5 class="h5">Operating Systems</h5>
+                </div>
+                <p class="skill-description">Windows, Kali Linux, Linux</p>
+              </li>
+            </ul>
+          </div>
+        
+          <!-- Additional Skills Section -->
+          <div class="skills-category">
+            <h4 class="h4">Additional Skills</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/images (3).jpeg" alt="Excel Icon" class="skill-icon">
+                  <h5 class="h5">Advanced Excel</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/rsti.png" alt="API Icon" class="skill-icon">
+                  <h5 class="h5">REST API Development</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/websc.jpg" alt="Web Scraping Icon" class="skill-icon">
+                  <h5 class="h5">Web Scraping</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/gui.png" alt="GUI Icon" class="skill-icon">
+                  <h5 class="h5">GUI Development</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/ms-office.jpg" alt="MS Office Icon" class="skill-icon">
+                  <h5 class="h5">MS Office</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/unit testing-29.jpg" alt="Unit Testing Icon" class="skill-icon">
+                  <h5 class="h5">Unit Testing</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/R9163747-01.webp" alt="Microcontroller Icon" class="skill-icon">
+                  <h5 class="h5">Microcontrollers</h5>
+                </div>
+                <p class="skill-description">Arduino Uno, ESP32</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/harsd.jpg" alt="Hardware Design Icon" class="skill-icon">
+                  <h5 class="h5">Hardware Design</h5>
+                </div>
+                <p class="skill-description">Circuit Design, PCB Layout, Embedded System Design</p>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/rent-a-3d-printer-500x500.webp" alt="3D Printing Icon" class="skill-icon">
+                  <h5 class="h5">3D Printing</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        
+          <!-- Soft Skills Section -->
+          <div class="skills-category">
+            <h4 class="h4">Soft Skills</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/psll.jpg" alt="Problem Solving Icon" class="skill-icon">
+                  <h5 class="h5">Problem-Solving</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/tc.png" alt="Teamwork Icon" class="skill-icon">
+                  <h5 class="h5">Team Collaboration</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/cm.png" alt="Communication Icon" class="skill-icon">
+                  <h5 class="h5">Communication</h5>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <img src="./assets/images/ahe.webp" alt="Detail-Oriented Icon" class="skill-icon">
+                  <h5 class="h5">Attention to Detail</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10995.192140264728!2d77.5416746238982!3d13.010980349509015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d7115e2a667%3A0xf3f2ccdee4063552!2sMahalakshmi%20Layout%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1731059649535!5m2!1sen!2sin" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Chat with Me</h3>
+        <section class="chatbot">
+          
+          <div id="chatbox" class="chatbox">
+            <div class="chat-content" id="chat-content">
+              <!-- Bot message with logo -->
+              <div class="chat-message bot-message">
+                <img src="./assets/images/bot.png" alt="Bot Logo" class="message-icon"> <!-- Replace with bot logo URL -->
+                <p>Hi! I'm Aswin N, a Software Engineer. How can I assist you today?</p>
+              </div>
+        
+              <!-- User message with logo -->
+              
+            </div>
+        
+            <div class="chat-input-wrapper">
+              <img src="./assets/images/icons8-user-100.png"  alt="User Logo" class="message-icon">
+              <input type="text" id="user-input" class="chat-input" placeholder="Type a message..." autocomplete="off" />
+              <button id="send-btn" class="chat-btn">
+                <ion-icon name="send"></ion-icon>
+              </button>
+            </div>
+          </div>
+        </section>
+        
+        
+        
+      
+        
+
+        
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  
+
+</body>
+
+</html>
