@@ -439,9 +439,17 @@ main {
   padding-bottom: 4px;
   padding-left: 7px;
   flex-wrap: wrap;
-  margin-top: -20px; /* Adjust as needed to move the list higher */
+  margin-top: -15px; /* Adjust as needed to move the list higher */
 }
-
+/* Make sure social media icons are responsive on mobile */
+@media screen and (max-width: 768px) {
+  .social-list {
+    justify-content: center; /* Center the social links */
+  }
+  .social-item {
+    font-size: 18px; /* Resize icons on smaller screens */
+  }
+}
 
 .social-item {
   list-style: none;
@@ -457,15 +465,7 @@ main {
   color: var(--light-gray);
 }
 
-/* Make sure social media icons are responsive on mobile */
-@media screen and (max-width: 768px) {
-  .social-list {
-    justify-content: center; /* Center the social links */
-  }
-  .social-item {
-    font-size: 18px; /* Resize icons on smaller screens */
-  }
-}
+
 
 
 
