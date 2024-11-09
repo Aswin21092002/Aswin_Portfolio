@@ -430,6 +430,7 @@ main {
 
 .contact-info address { font-style: normal; }
 
+/* Ensure social media icons are visible and aligned properly */
 .social-list {
   display: flex;
   justify-content: flex-start;
@@ -437,15 +438,34 @@ main {
   gap: 15px;
   padding-bottom: 4px;
   padding-left: 7px;
+  flex-wrap: wrap;
+  margin-top: -20px; /* Adjust as needed to move the list higher */
 }
 
-.social-item .social-link {
+
+.social-item {
+  list-style: none;
+}
+
+.social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 24px;
+  text-decoration: none;
 }
 
+.social-item .social-link:hover {
+  color: var(--light-gray);
+}
 
-.social-item .social-link:hover { color: var(--light-gray); }
+/* Make sure social media icons are responsive on mobile */
+@media screen and (max-width: 768px) {
+  .social-list {
+    justify-content: center; /* Center the social links */
+  }
+  .social-item {
+    font-size: 18px; /* Resize icons on smaller screens */
+  }
+}
 
 
 
@@ -1998,12 +2018,14 @@ textarea.form-input::-webkit-resizer { display: none; }
         }
       
         .chat-content {
+          text-align: justify;
           flex: 1;
           padding: 10px;
           border-radius: 8px;
         }
       
         .chat-message {
+          text-align: justify;
           display: flex;
           align-items: center;
           max-width: 90%;
@@ -2014,12 +2036,13 @@ textarea.form-input::-webkit-resizer { display: none; }
       
         .bot-message {
           color: white;
+          text-align: justify;
           align-self: flex-start;
           flex-direction: row;
         }
       
         .user-message {
-          
+          text-align: justify;
           color: white;
           align-self: flex-end;
           flex-direction: row-reverse; /* Align user messages to the right */
@@ -2034,12 +2057,13 @@ textarea.form-input::-webkit-resizer { display: none; }
       
         .chat-input-wrapper {
           display: flex;
+          text-align: justify;
           justify-content: space-between;
           margin-top: 10px;
         }
       
         .chat-input {
-          width: 85%;
+          width: 75%;
           padding: 10px;
           border-radius: 20px;
           border: none;
@@ -2047,7 +2071,7 @@ textarea.form-input::-webkit-resizer { display: none; }
           color: white;
           outline: none;
         }
-      
+        
         .chat-btn {
           background-color: red;
           border: none;
@@ -2055,8 +2079,20 @@ textarea.form-input::-webkit-resizer { display: none; }
           padding: 10px;
           cursor: pointer;
         }
-      
+        
         .chat-btn ion-icon {
           color: white;
           font-size: 1.2rem;
         }
+        
+        /* Add spacing between input and button on mobile */
+        @media (max-width: 600px) {
+          .chat-input {
+            width: 70%;  /* Optionally adjust the width for smaller screens */
+          }
+          
+          .chat-btn {
+            margin-left: 10px; /* Adds space between the input field and button */
+          }
+        }
+        
