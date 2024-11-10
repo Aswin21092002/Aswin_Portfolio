@@ -491,6 +491,7 @@ main {
 .navbar-list {
   display: flex;
   flex-wrap: wrap;
+  font-weight: bold;
   justify-content: center;
   align-items: center;
   padding: 0 10px;
@@ -498,7 +499,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: 16px;;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -508,6 +509,12 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
+
+
+/* Additional Add */
+/* Default styling (for larger screens) */
+
+/* Mobile view (screen width <= 768px) */
 
 
 
@@ -964,6 +971,10 @@ main {
 .filter-select-box {
   position: relative;
   margin-bottom: 25px;
+}
+
+.filter-item button {
+  color: rgb(234, 21, 21); /* Set the text color to white */
 }
 
 .filter-select {
